@@ -1,8 +1,234 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">          
     </head>
     <body>
-        <div></div>
+        <div class="statusbar">
+            <div class="statusbar-content">
+                <div class="statusbar-logo"><img src="images/logo.gif"></div>
+                <div class="statusbar-middle">
+                    <div class="goto-city rounded">
+                        <a href="">Goto city</a>
+                    </div>
+                    <div class="global-search">
+                        <input class="rounded" type="text" placeholder="Search">
+                        <button type="button"></button>
+                    </div>
+                </div>
+                <div class="user-status">
+                        <img class="circled" width="36" height="36" src="images/user.jpg">
+                    
+                    Maxim Ivanov
+                </div>
+                <div class="float-clear"></div>
+            </div>
+        </div>
+        
+        <div class="uphotos">
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="unav">
+            <ul class="unav-left">
+                <li>
+                    <a href="">
+                        <div class="unav-icons" id="unav-maps">
+                            <span class="new-notice">
+                                12
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="unav-icons" id="unav-calendar">
+                            <span class="new-notice">
+                                999
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="unav-icons" id="unav-friends">
+                            <span class="new-notice">
+                                1
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="unav-userpic">
+                <img class="circled" width="64" height="64" src="images/user.jpg">
+            </div>
+            <ul class="unav-right">
+                <li>
+                    <a href="">
+                        <div class="unav-icons" id="unav-photos">
+                            <span class="new-notice">
+                                4
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="unav-icons" id="unav-shops">
+                            <span style="display: none;" class="new-notice">
+                                0
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="unav-icons" id="unav-barter">
+                            <span class="new-notice">
+                                21
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <div class="content-left">
+                <div class="posts">
+                    <div class="post-addNsearch">
+                        <div class="post-add">
+                            <input type="text" placeholder="Add post">
+                            <button type="button"></button>
+                        </div>
+                        <div class="post-search">
+                            <input type="text" placeholder="search...">
+                            <button type="button"></button>
+                        </div>
+                    </div>
+                    <div class="post-filter">Filter wall by: <a class="dark" href="">Images</a> Video <a class="dark" href="">Messages</a> Music <a class="dark" href="">Notifications</a></div>
+                    <div class="float-clear"></div>
+                    <div class="post-wrapper">
+                        <div class="post-author">
+                            <img class="circled bordered" width="36" height="36" src="images/user.jpg">
+                            <a class="dark" href="">Maxim Ivanov</a> added a photo
+                        </div>
+                        <div class="post-date">23 feb 21:30</div>
+                        <div class="float-clear"></div>
+                        <div class="post-content">
+                            <img src="https://lh3.googleusercontent.com/-7Q5wTceOX6Y/VEuFb8wxmXI/AAAAAAACmB0/dtFxEmVQIZU/w640-h479-no/14%2B-%2B1" width="100%" height="100%">
+                            <div class="post-message">
+                                <span>This is a party i met yesterday</span>
+                            </div>
+                            <div class="post-comments">
+                                <div class="post-add-comment">
+                                    <input class="rounded" type="text" placeholder="write comment">
+                                    <button type="button"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post-wrapper">
+                        <div class="post-author">
+                            <img class="circled bordered" width="36" height="36" src="images/user.jpg">
+                            <a class="dark" href="">Maxim Ivanov</a> added a message
+                        </div>
+                        <div class="post-date">23.09.2014</div>
+                        <div class="float-clear"></div>
+                        <div class="post-content rounded">
+                            <div class="post-message">
+                                <span>Hello my dear friends</span>
+                            </div>
+                            <div class="post-comments">
+                                <div class="post-add-comment">
+                                    <input class="rounded" type="text" placeholder="write comment">
+                                    <button type="button"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="content-right">
+                Article
+                <div class="articles">
+                    <div class="article-addNsearch">
+                        <a href="">
+                            <div class="article-add">
+                                Add article
+                            </div>
+                         </a>
+                        <div class="article-search">
+                            <input type="text" placeholder="search...">
+                            <button type="button"></button>
+                        </div>
+                    </div>
+                    <div class="post-filter">Filter articles by: <a class="dark" href="">DIY</a> Tuning <a class="dark" href="">Photo</a> Upgrade <a class="dark" href="">News</a></div>
+                </div>
+                <div class="float-clear"></div>
+                <div class="article-wrapper">
+                        <img src="https://a-a.d-cd.net/84a94ecs-480.jpg" width="100%">
+                    <div class="article-head">
+                        <a class="article-name" href="">New Brembo brakes for my passat</a>
+                        <div class="auto-like-counter">
+                            <a href=""><img width="30" height="30" src="images/auto_like.png" class="auto-like" ></a>
+                            12
+                        </div>
+                        <div class="float-clear"></div>
+                    </div>
+                    <div class="article-info">
+                        <div class="article-info-left">
+                            12 mar.2014 category: <a href="">tuning</a>
+                        </div>
+                        <div class="article-info-right">
+                            <span class="article-eye">312</span><span class="article-comments">25</span>
+                        </div>
+                        <div class="float-clear"></div>
+                    </div>
+                </div>
+                
+                <div class="article-wrapper">
+                    <div class="article-head">
+                        <a class="article-name" href="">How to change Volkswagen's front bumper to be a superhero</a>
+                        <div class="auto-like-counter">
+                            <a href=""><img width="30" height="30" src="images/auto_like.png" class="auto-like" ></a>
+                            12
+                        </div>
+                        <div class="float-clear"></div>
+                    </div>
+                    <div class="article-info">
+                        <div class="article-info-left">
+                            12 mar.2014 category: <a href="">tuning</a>
+                        </div>
+                        <div class="article-info-right">
+                            <span class="article-eye">312</span><span class="article-comments">25</span>
+                        </div>
+                        <div class="float-clear"></div>
+                    </div>
+                </div>
+                <div class="article-more">
+                    <a href=""><span class="article-more-prev">0 - 10</span></a><a href=""><span class="article-more-next">load 10-20</span></a>
+                </div>
+            </div>
+            <div class="float-clear"></div>
+        </div>
+        <div class="content-bottom">
+            <div class="green-dot"></div>
+        </div>
     </body>
 </html>
