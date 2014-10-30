@@ -7,9 +7,10 @@
 body {
     background-color: #0e0e0e;
     color: #fff;
-    font-family: verdana, sans-serif;
+    font-family: 'Open Sans', verdana, sans-serif;
     font-size: 12px;
     text-decoration: none;
+background:url('http://subtlepatterns.com/patterns/binding_dark.png');
 }
 
 a {
@@ -186,7 +187,7 @@ a.dark {
 }
 
 .unav-icons {
-    background: url("images/unav.gif") no-repeat top left;
+    background: url("images/unav.png") no-repeat top left;
     width: 30px;
     height: 30px;
     position:relative;
