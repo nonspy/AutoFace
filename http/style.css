@@ -46,6 +46,29 @@ a.dark {
     border: 2px solid #ddd;
 }
 
+.auto-like-counter {
+    float: right;
+    height: 20px;
+    background-color: #e7e7e7;
+    color: #8b8b8b;
+    font-size: 10px;
+    padding-left: 28px;
+    padding-right: 8px;
+    line-height: 20px;
+    border-radius: 10px;
+    position:absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px;
+    font-weight: bold;
+}
+
+.auto-like {
+    position: absolute;
+    top: -5px;
+    left:-5px
+}
+
 .new-notice {
     background-color: #cc1622;
     color: #fff;
@@ -497,29 +520,6 @@ a.dark {
     float: left;
     margin-right: 70px;
     line-height: 25px;
-}
-
-.auto-like-counter {
-    float: right;
-    height: 20px;
-    background-color: #e7e7e7;
-    color: #8b8b8b;
-    font-size: 10px;
-    padding-left: 28px;
-    padding-right: 8px;
-    line-height: 20px;
-    border-radius: 10px;
-    position:absolute;
-    top: 50%;
-    margin-top: -10px;
-    right: 15px;
-    font-weight: bold;
-}
-
-.auto-like {
-    position: absolute;
-    top: -5px;
-    left:-5px
 }
 
 .article-info {
