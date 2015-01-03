@@ -22,6 +22,9 @@ li {
 list-style-type: none;
 }
 
+img {
+    vertical-align: top;
+}
 /* Common */
 
 a.dark {
@@ -223,7 +226,6 @@ a.button-active {
     float: right;
     margin-right: 10px;
 }
-
 
 .article-auto-model {
     clear: both;
@@ -477,12 +479,8 @@ a.article-comment-add {
 
 .related-article-info {
     height: 23px;
-    background: url('aimages/article-head_gr.gif') top left #222 ;
+    background: #222 ;
     margin: 0 auto;
-    border-radius: 0 0 3px 3px;
-    border-right: 2px solid #222222;
-    border-bottom: 2px solid #222222;
-    border-left: 2px solid #222222;
     color: #656565;
     font-size: 11px;
     padding :0 10px;

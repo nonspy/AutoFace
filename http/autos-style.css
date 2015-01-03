@@ -1,0 +1,90 @@
+/*   Top nav   */
+
+.nav {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px
+}
+
+.nav ul li {
+    float: left;
+    height: 80px;
+    color: #fff;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0 30px;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.nav ul li .active {
+    font-size: 30px;
+    font-weight:100;
+}
+
+.search-city {
+    margin: auto;
+    width: 335px;
+    margin-top: 10px
+}
+
+.search-city input {
+    width: 320px;
+    height: 38px;
+    font-size: 18px;
+    color: #363636;
+    transition: box-shadow 0.3s, border 0.3s;
+    box-shadow: 0 0 1px 1px #434343;
+    padding-left: 15px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.search input:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px #374f39;
+    opacity: 1;
+}
+
+/*   Content   */
+
+.content {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 160px;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.item-u {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    text-shadow: 0px 1px 1px #000;
+    margin-top: 5px;    
+}
+
+.item-c {
+    text-align: center;
+    display: block;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.item-article a span{
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+}
+
+
+
+/*    ADDED  */
+
+body {
+//background:url('http://subtlepatterns.com/patterns/binding_dark.png');
+
+}
