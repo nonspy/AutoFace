@@ -1,0 +1,237 @@
+body {
+    background: url('images/grgebg.jpg') no-repeat top #343434;
+    background-attachment: fixed;
+}
+/*   Top nav   */
+
+.nav {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px
+}
+
+.nav ul li {
+    float: left;
+    height: 80px;
+    color: #fff;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0 30px;
+}
+
+.nav ul li .active {
+    font-size: 30px;
+    font-weight:100;
+}
+
+.search {
+    margin: auto;
+    width: 30px;
+    margin-top: 10px;
+    width: 345px;
+    height: 38px;
+    font-size: 18px;
+    color: #363636;
+    transition: box-shadow 0.3s, border 0.3s;
+    box-shadow: 0 0 1px 1px #434343;
+    padding-left: 5px;
+    background: rgba(255,255,255,0.5);
+    position: relative;
+}
+
+.search ul {
+    float: left;
+}
+
+.search input {
+    float: left;
+    width: 150px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search ul li {
+    float: left;
+    padding: 5px 5px 5px 10px;
+    margin: 5px 2px;
+    font-size: 12px;
+}
+
+.search ul li b, .search i {
+    background: #679F6D;
+    width: 16px;
+    font-size: 12px;
+    height: 16px;
+    display: inline-block;
+    line-height: 13px;
+    text-align: center;
+    margin: 0 0 0 3px; 
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {color:#4d4d4d;}
+::-moz-placeholder          {color:#4d4d4d;}/* Firefox 19+ */
+:-moz-placeholder           {color:#4d4d4d;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#4d4d4d;}
+
+.search i {
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    right: 8px;
+    top: 50%;
+    margin-top: -8px;
+    font-style: normal; 
+    color: #6f6f6f;
+}
+
+.tag-input {
+    background: none;
+    height: 38px;
+    margin-left: 3px;
+}
+
+.tags {
+    margin: 20px auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.tags li {
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 3px;
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer; 
+    font-size: 14px;
+}
+
+.tags li:hover {
+    background-color: rgba(0,0,0,0.9);
+}
+
+/*   Content   */
+
+.content {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 315px;
+    display: inline-block;
+    margin: 25px 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+
+.item-u {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+
+.item-article a span{
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+}
+
+.author {
+    top: -30px;
+    left: 5px;
+    position:absolute;
+    font-size: 12px;
+    color: #fff;
+}
+
+.author img {
+    padding: 5px;
+    background: url('images/grgebg.jpg') no-repeat top #343434;
+    background-attachment: fixed;
+}
+
+.like-photo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 0.5;
+}
+
+.like-photo:hover {
+    opacity: 1;
+}
+
+.like-photo.active {
+    opacity: 1;
+}
+
+
+/* Article styles  */
+
+.article-head {
+    background: #4b4b4b url('images/article_head.jpg') top left ;
+    padding: 15px 10px;
+    position: relative;
+}
+
+.article-name {
+    font-size: 15px;
+
+    color: #ddd;
+    float: left;
+    margin-right: 70px;
+    line-height: 25px;
+}
+
+.article-info {
+    height: 23px;
+    background: url('images/article-head_gr.gif') top left #222 ;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 0 0 3px 3px;
+    border-right: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+    border-left: 2px solid #222222;
+    color: #656565;
+    font-size: 11px;
+    padding :0 10px;
+    line-height: 25px;
+}
+
+.article-info-left {
+    float: left;
+}
+
+.article-info-left a {
+    text-decoration: underline;
+    color: #ededed;
+}
+
+.article-info-right {
+    float: right;
+}
+
+.article-eye {
+    background: url('images/eye.gif') no-repeat center left;
+    padding-left: 19px;
+}
+
+.article-comments {
+    background: url('images/com.gif') no-repeat center left;
+    padding-left: 16px;
+    margin-left: 10px
+}
+
+.like-counter {
+    position: absolute;
+    right: 10px;
+    margin-top: -10px;
+    top: 50%;
+}

@@ -24,12 +24,12 @@
 
 .search-city {
     margin: auto;
-    width: 335px;
+    width: 500px;
     margin-top: 10px
 }
 
 .search-city input {
-    width: 320px;
+    width: 200;
     height: 38px;
     font-size: 18px;
     color: #363636;
@@ -37,10 +37,12 @@
     box-shadow: 0 0 1px 1px #434343;
     padding-left: 15px;
     margin: auto;
+    margin-left: 15px;
     opacity: 0.7;
+    float: left;
 }
 
-.search input:focus {
+.search-city input:focus {
     outline: none;
     box-shadow: 0 0 3px 1px #374f39;
     opacity: 1;
@@ -78,13 +80,4 @@
     font-size: 14px;
     text-align: left;
     padding: 5px;
-}
-
-
-
-/*    ADDED  */
-
-body {
-//background:url('http://subtlepatterns.com/patterns/binding_dark.png');
-
 }

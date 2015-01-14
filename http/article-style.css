@@ -53,7 +53,7 @@ a.dark {
     border: 2px solid #68a16f;
 }
 
-.auto-like-counter {
+.like-counter {
     float: right;
     height: 20px;
     background-color: #e7e7e7;
@@ -70,7 +70,7 @@ a.dark {
     font-weight: bold;
 }
 
-.auto-like {
+.like {
     position: absolute;
     top: -5px;
     left:-5px
@@ -520,4 +520,10 @@ a.article-comment-add {
     padding: 1px 10px;
     margin: 2px;
     border-radius: 2px;
+}
+
+.like-counter {
+    top: 50%;
+    margin-top: -10px;
+    right: 0;
 }
