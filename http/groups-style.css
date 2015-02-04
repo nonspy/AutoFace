@@ -1,17 +1,27 @@
 body {
-    background: url('images/grgebg.jpg') no-repeat top #343434;
+    background: url('images/community1.jpg') no-repeat center center #343434;
     background-attachment: fixed;
 }
+
+.goto {
+    float:left;
+    background-color: #9F0C00;
+    width: 85px;
+    height: 35px;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 35px;
+}
 /*   Top nav   */
+
+.main-color {
+    background: #B90E00;
+}
 
 .nav {
     width: 1000px;
     margin: auto;
     padding-top: 50px
-}
-
-.main-color {
-    background: #575757;
 }
 
 .nav ul li {
@@ -114,7 +124,7 @@ body {
 }
 
 .tags li:hover {
-    background-color: rgba(0,0,0,0.9);
+    background: #B90E00;
 }
 
 /*   Content   */
@@ -127,19 +137,38 @@ body {
 .item {
     width: 315px;
     display: inline-block;
-    margin: 25px 10px;
+    margin: 20px 10px;
     vertical-align: top;
     position: relative;
 }
 
 
+.item {
+    width: 160px;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
 .item-u {
     font-size: 18px;
     text-align: center;
     display: block;
-    position: relative;
+    text-shadow: 0px 1px 1px #000;
+    margin-top: 5px;    
 }
 
+.item-c {
+    text-align: center;
+    display: block;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.item-article a span{
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+}
 
 .item-article a span{
     font-size: 14px;
@@ -238,4 +267,18 @@ body {
     right: 10px;
     margin-top: -10px;
     top: 50%;
+}
+
+.rating {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: url('images/community1.jpg') no-repeat center center #343434;
+    padding: 5px;
+    background-attachment: fixed;
+}
+
+.subscribed {
+    vertical-align: center;
+    padding-right: 4px;
 }

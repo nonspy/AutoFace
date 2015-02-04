@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="common.css" media="all">
+    <link rel="stylesheet" type="text/css" href="maps-style.css" media="all">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx5EFqmJCKzCSlPsw1f7gTfRHITun2spc"></script>
+    </head>
+    <body>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: -34.397, lng: 150.644},
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+        map.setOptions({draggable: true, zoomControl: true, scrollwheel: false, disableDoubleClickZoom: true});
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+        
+        <div class="statusbar main-color">
+            <div class="statusbar-content">
+                <div class="statusbar-logo"><img src="images/logo.png"></div>
+                
+                <div class="statusbar-middle">
+                    <div class="goto-city rounded">
+                        <a href="">Goto home</a>
+                    </div>
+                    <div class="global-search">
+                        <input class="rounded" type="text" placeholder="Search">
+                        <button type="button"></button>
+                    </div>
+                </div>
+                <div class="user-status">
+                        <img class="circled" width="36" height="36" src="images/user.jpg">
+                    
+                    Maxim Ivanov
+                </div>
+                <div class="float-clear"></div>
+            </div>
+        </div>
+        <div id="map-canvas"></div>
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="street.html">Улица</a></li>
+                    <li><a href="faces.html">Люди</a></li>
+                    <li><a href="autos.html">Авто</a></li>
+                    <li><a href="photos.html">Фото</a></li>
+                    <li><a href="workshop.html">Мастерская</a></li>
+                    <li><a href="market.html">Рынок</a></li>
+                    <li><a class="active" href="maps.html">Карты</a></li>
+                    <li><a href="clubs.html">Клубы</a></li>
+                </ul>
+                <div class="float-clear"></div>
+            </nav>
+            <div class="search-block">
+                <div class="search rounded">
+                    <input class="tag-input" type="text" placeholder="Введите адрес или название города">  
+                    <i class="circled">x</i>
+                </div>
+                <button class="search-button rounded" type="button">Поиск</button>
+            </div>
+        </header>
+        <main>            
+            <div class="unav main-color">
+                 <div class="unav-icons" id="unav-me">
+                     Мои метки
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>Точка (99)</li>
+                        <li>Регион (34)</li>
+                        <li>Маршрут</li>
+                        <li>События</li>
+                        <li>Авто</li>
+                        <li>Фото</li>
+                        <li>Обьекты</li>
+                        <li>Места</li>
+                        <li>Сообщества</li>
+                    </ul>
+                <div class="unav-icons" id="unav-friends">
+                     Все метки
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>Метки друзей</li>
+                        <li>Метки машин с подпиской</li>
+                        <li>Новые метки в Рига</li>
+                        <li>Популярные в Рига</li>
+                    </ul>
+                <div class="unav-icons" id="unav-events">
+                     События
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>Сейчас в Рига</li>
+                        <li>Я учавствую</li>
+                        <li>В ближайшее время в Рига</li>
+                        <li>В ближайшее время везде</li>
+                        <li>Популярные в Рига</li>
+                    </ul>
+                <div class="unav-icons" id="unav-services">
+                     Авто службы
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>Автосервисы</li>
+                        <li>Заправки</li>
+                        <li>Гаражи</li>
+                        <li>Парковки платные</li>
+                        <li>Парковки бесплатные</li>
+                        <li>Хитрые знаки</li>
+                        <li>Стоит посмотреть</li>
+                        <li>Приколы</li>
+                        <li>Закусочные</li>
+                        <li>Автомойки</li>
+                        <li>Шиномонтаж</li>
+                        <li>Сборы</li>
+                        <li>Гонки</li>
+                        <li>Запчасти</li>
+                        <li>Авторынки</li>
+                        <li>Шрот</li>
+                    </ul>
+                <div class="unav-icons" id="unav-places">
+                     Обьекты
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>Достопримечательности</li>
+                        <li>Стоит видеть</li>
+                        <li>Гостиницы и отели</li>
+                        <li>Закусочные</li>
+                        <li>Достопримечательности</li>
+                    </ul>
+                <div class="unav-icons" id="unav-groups">
+                     Сообщества
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>BMW клуб Москва</li>
+                        <li>Стекловолокно</li>
+                    </ul>
+                <div class="unav-icons" id="unav-photos">
+                    Фото
+                    <span class="new-notice">
+                        21
+                    </span>
+                </div>
+                    <ul>
+                        <li>Авто</li>
+                        <li>Пейзаж</li>
+                        <li>Прикол</li>
+                    </ul>
+            </div>
+        </main>
+    </body>
+</html>

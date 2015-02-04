@@ -1,0 +1,263 @@
+.main-color {
+    background: #77b97e;
+}
+
+body {
+    background:url('http://subtlepatterns.com/patterns/binding_dark.png');
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    //background: rgba(0,0,0,.4);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C */
+
+    
+    height: 130px;
+    //background: url('http://blog.guesttoguest.com/wp-content/uploads/2014/02/new-york.jpg') center center;
+    //-webkit-filter: blur(4px); 
+}
+
+main {
+    margin: 0 auto;
+    color: #343434;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    color: #343434;
+    text-shadow: none;
+}
+
+/*   Top nav   */
+
+.nav {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px
+}
+
+.nav ul li {
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.nav a {
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+}
+
+.nav ul li .active {
+    font-size: 30px;
+    font-weight:100;
+    color: #fff;
+}
+
+.search-block {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+}
+
+.search {
+    margin: auto;
+    width: 30px;
+    margin-top: 10px;
+    width: 80%;
+    height: 38px;
+    font-size: 18px;
+    color: #363636;
+    transition: box-shadow 0.3s, border 0.3s;
+    box-shadow: 0 0 1px 1px #434343;
+    padding-left: 5px;
+    background: rgba(255,255,255,0.8);
+    position: relative;
+    float: left;
+}
+
+.search ul {
+    float: left;
+}
+
+.search input {
+    float: left;
+    width: 98%;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search ul li {
+    float: left;
+    padding: 5px 5px 5px 10px;
+    margin: 5px 2px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.search ul li b, .search i {
+    background: #00689f;
+    width: 16px;
+    font-size: 12px;
+    height: 16px;
+    display: inline-block;
+    line-height: 13px;
+    text-align: center;
+    margin: 0 0 0 3px; 
+    vertical-align: bottom;
+    cursor: pointer;
+    color: #3098cf;
+}
+
+.search-button {
+    width: 18%;
+    height: 38px;
+    float: right;
+    background: #77b97e;
+    border-bottom: 1px solid #008d0f;
+    border-left: 1px solid #68b56e;
+    border-right: 1px solid #68b56e;
+    border-top: 1px solid #8bda93;
+    color: #fff;
+    box-shadow: 0px -1px 0px #008d0f;
+    margin-top: 10px;
+    text-shadow: 0 -1px 0 #003f76;
+    font-size: 16px;    
+}
+
+::-webkit-input-placeholder {color:#4d4d4d;}
+::-moz-placeholder          {color:#4d4d4d;}/* Firefox 19+ */
+:-moz-placeholder           {color:#4d4d4d;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#4d4d4d;}
+
+.search i {
+    position: absolute;
+    background: #e1e1e1;
+    right: 8px;
+    top: 50%;
+    margin-top: -8px;
+    font-style: normal; 
+    color: #6f6f6f;
+}
+
+.search-city {
+    width: 200px;
+    float: left;
+    background: rgba(255,255,255,0.1);
+}
+
+.search-auto {
+    width: 280px;
+    float: right;
+    background: rgba(255,255,255,0.1)
+}
+
+.search-city:hover,
+.search-city:focus,
+.search-auto:hover,
+.search-auto:focus {
+    background: rgba(255,255,255,0.4)
+}
+
+.chooser {
+    width: 505px;
+    margin: auto;
+}
+
+.tag-input {
+    background: none;
+    height: 38px;
+    margin-left: 3px;
+}
+
+
+.unav {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.unav-icons {
+    padding: 20px 33px;
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.unav-icons:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 13px;
+    background: url('images/icons.png') no-repeat top left;
+    height: 33px;
+    width: 30px;
+}
+
+#unav-me:before {
+    width: 28px;
+}
+
+#unav-friends:before {
+    width: 28px;
+    background-position: -27px 0;
+}
+
+#unav-events:before {
+    width: 28px;
+    background-position: -54px 0;
+}
+
+#unav-services:before {
+    width: 30px;
+    background-position: -84px 0;
+}
+
+#unav-places:before {
+    width: 28px;
+    background-position: -118px 0;
+}
+
+#unav-groups:before {
+    width: 28px;
+    background-position: -149px 0;
+}
+
+#unav-photos:before {
+    width: 28px;
+    background-position: -180px 0;
+}
+
+.unav-icons span {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+}
+
+.unav ul {
+    display: none;
+}
+
+#map-canvas {
+    padding-top: 60px;
+    width: 100%;
+    height: 750px;
+}
+
+.timeline {
+    width: 600px;
+    height: 5px;
+    background: #057f3b;
+    margin: 10px auto;
+    border-radius: 2px;
+}

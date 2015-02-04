@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('images/grgebg.jpg') no-repeat top #343434;
+    background: url('images/community.jpg') no-repeat center #343434;
     background-attachment: fixed;
 }
 
@@ -306,15 +306,12 @@ aside ul li input {
     position: absolute;
     bottom: -1px;
     left: -1px;
-    width: 10px;
-    height: 10px;
-    color: black;
     height:24px;
-     width:48px;
-     border-radius: 0 0 48px 48px;
-     -moz-border-radius: 0 0 48px 48px;
-     -webkit-border-radius: 0 0 48px 48px;
-     background:green;
+    width:48px;
+    border-radius: 0 0 48px 48px;
+    -moz-border-radius: 0 0 48px 48px;
+    -webkit-border-radius: 0 0 48px 48px;
+    background: #bfbfbf;
     z-index:-2;
 }
 
